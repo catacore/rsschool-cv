@@ -2,7 +2,7 @@
 ## **Anastasija Solobai**
 ### My Contact Info:
  #### *•	Phone: +375 29 277-12-20
- #### *•	E-mail: _nastasiasolo@gamil.com_
+ #### *•	E-mail: _nastasiasolo@gmail.com_
  #### *•	GitHub: catacore 
 ### About Me
 #### _I have been working for 5 years as junior researcher at “Scientific-Practical Materials Research Centre of NAS of Belarus”. During working graduated from master's and postgraduate studies. Now I’m on maternity leave and trying to get new skills in another activity field._
@@ -13,12 +13,16 @@
 #### *•	C++
 ### Code Examples
 ```javascript
-const func = (num) => {
-  if (num > 0) {
-    return num - 1;
-  }
-  return num + 1;
-};
+function testWhile(a) {
+  var x=0;
+  var i=0;
+ while(i<=a> {
+   if(i%2==0){
+     x=x+1;  }
+     i++;
+ }
+ return x;
+}
 ```
 ### Education
 #### 	Belarusian State University
