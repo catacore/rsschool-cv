@@ -1,1 +1,1 @@
-# rsschool-cv
+https://catacore.github.io/rsschool-cv/cv
