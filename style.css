@@ -1,14 +1,23 @@
 .header {
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    flex-flow: row;
+    column-gap: 35px;
+    padding: 10px 150px 0px;
     text-align: center;
-    background: cornsilk;
+    background: rgb(209, 204, 204);
 }
-.main {
 
+.header img {
+    padding: 10px;
+    height: 10%;
+    width: 10%
+}
+
+.main {
+    background: rgb(209, 204, 204);
+    padding: 10px 50px 0px;
 }
 
 .footer {
-  
+    background: rgb(209, 204, 204);
 }
