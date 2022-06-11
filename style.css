@@ -1,23 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background: rgb(161,161,167);
+    background: linear-gradient(195deg, rgba(161,161,167,1) 0%, rgba(240,197,197,1) 79%);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 100px; /* Радиус скругления */
+    
+    box-shadow: 0 0 4px #666; /* Параметры тени */
+  
+}
+
 .header {
     display: flex;
     flex-flow: row;
     column-gap: 35px;
-    padding: 10px 150px 0px;
     text-align: center;
-    background: rgb(209, 204, 204);
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
 }
 
-.header img {
-    padding: 10px;
-    height: 10%;
-    width: 10%
+.header .mycontacts {
+    text-align:left;
+}
+
+.header .image {
+    width: 150px;
+
 }
 
 .main {
-    background: rgb(209, 204, 204);
-    padding: 10px 50px 0px;
+    display: flex;
+    flex-flow: row;
 }
 
+.main .column {
+    flex: 1 50%;
+    padding-left: 30px;
+}
+ .main .column p {
+    max-width: 350px;
+ }
+
 .footer {
-    background: rgb(209, 204, 204);
+    text-align: center;
 }

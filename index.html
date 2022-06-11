@@ -10,51 +10,77 @@
 <body>
     <header class="header">
         <div class="me">
-        <h1 class="title">Anastasiya Solobai</h1>
+            <h1 class="title">Anastasiya Solobai</h1>
             <nav class="contact">
-                <ul class="mycontact">
-                    <li>Phone: +375 29 277-12-20</li>
-                    <li>E-mail: nastasiasolo@gamil.com</li>
-                    <li>GitHub: catacore</li>
-                    <li>Telegram</li>
+                <ul class="mycontacts">
+                    <li>Phone:<a href="tel:+375 29 277-12-20"> +375 29 277-12-20</a></li>
+                    <li>E-mail:<a href="nastasiasolo@gamil.com">nastasiasolo@gamil.com</a></li>
+                    <li>GitHub:catacore</li>
+                    <li>Discord:catacore#2096</li>
+                    <li> <a href="https://www.google.com/maps/place/%D0%92%D1%80%D0%BE%D1%86%D0%BB%D0%B0%D0%B2/@51.1267432,16.7116858,10z/data=!3m1!4b1!4m5!3m4!1s0x470fe9c2d4b58abf:0xb70956aec205e0f5!8m2!3d51.1078852!4d17.0385376" target="_blank">Wroclaw, Poland</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="image">
             <img src="./avatar.jpg"/>
+        </div>    
     </header>
     <article class="main">
-                <div class="about">
-            I have been working for 5 years as junior researcher at 
-            “Scientific-Practical Materials Research Centre of NAS of Belarus”. During working 
-            graduated from master's and postgraduate studies. Now I’m on maternity leave and trying to 
-            get new skills in another activity field.
+        <div class="column column--left">
+            <div class="about">
+                <h3 class="subtitle">ABOUT</h3>
+                <p>I have been working for 5 years as junior researcher at 
+                “Scientific-Practical Materials Research Centre of NAS of Belarus”. During working 
+                graduated from master's and postgraduate studies. Now I’m on maternity leave and trying to 
+                get new skills in another activity field.</p>
+            </div>
+            <div class="code">
+                <h3 class="subtitle">CODE</h3>
+                <pre>
+                    <code>
+function nthFibo(n) {
+    if (n == 1){
+        return 0;
+    }
+    else if (n == 2) {
+        return 1;
+    } else {
+        return nthFibo(n - 1) + nthFibo(n - 2);
+    }
+}
+                    </code>
+                </pre>
+            </div>
         </div>
-        <div class="skills">
-            <ul class="myskills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git/GitHub</li>
-                <li>C++</li>
-            </ul>
-        </div>
-        <div class="Code">
-            code
-        </div>
-        <div class="Education">
-            Belarusian State University
-            Nuclear physics and technology 
-        </div>
-        <div class="Languages">
-            <ul class="mylanguages">
-                <li>Belorussian - native speaker </li>
-                <li>Russian - native speaker</li>
-                <li>English - A2 -B1</li>
-                <li>Polish - A2</li>
-            </ul>  
+        <div class="column column--right">
+            <div class="skills">
+                <h3 class="subtitle">SKILLS</h3>
+                <ul class="myskills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git/GitHub</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="Education">
+                <h3 class="subtitle">EDUCATION</h3>
+               <p>Belarusian State Universit. Nuclear physics and technology</p> 
+            </div>
+            <div class="LANGUAGES">
+                <h3 class="subtitle">LANGUAGES</h3>
+                <ul class="mylanguages">
+                    <li>Belorussian - native speaker </li>
+                    <li>Russian - native speaker</li>
+                    <li>English - A2 -B1</li>
+                    <li>Polish - A2</li>
+                </ul>  
+            </div>
         </div>
         </article>
     <footer class="footer">
-        RSshcool
+        <a href="https://rs.school/js/"><img src="./rs_school_js.svg" width="100" alt="RSschool_logo"></a>
+        <a href="https://github.com/catacore">GitHub @catacore</a>
+        2022
     </footer>
 </body>
 </html>
